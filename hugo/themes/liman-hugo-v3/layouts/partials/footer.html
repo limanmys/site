@@ -1,0 +1,61 @@
+<footer id="footer">
+    <div class="container" data-aos="fade-up">
+        <div class="footer-row row py-5">
+            <div class="col-12 col-lg-6 d-lg-flex d-block">
+                <div class="row">
+                    {{ range $idx, $menu := .Site.Menus.footer }}
+                    <div class="col-12 col-xl-6 text-center text-lg-left">
+                        <ul class="list-group list-group-flush">
+                            {{ if eq $idx 0 }}
+                            <li class="list-group-item px-0">
+                                <img src="/images/logo.svg" alt="HAVELSAN Liman Merkezi Yönetim Sistemi" class="img-fluid" style="width: 100px; height: auto;">
+                            </li>
+                            {{ end }}
+                            {{ if eq $idx 1 }}
+                            <div class="mb-lg-5 mb-0"></div>
+                            {{ end }}
+                            {{ range .Children }}
+                            <li class="list-group-item px-0"><a href="{{ .URL }}">{{ .Name }}</a></li>
+                            {{ end }}
+                            </li>
+                        </ul>
+                    </div>
+                    {{ end }}
+                    <div class="col-12 text-lg-left text-center mt-lg-0 mt-3">
+                        {{ range $i, $v := .Site.Params.footer.socialmedia }}
+                        <a href="{{ .link }}" target="_blank" {{if gt $i 0}}class="ml-3" {{end}}>
+                            <i class="{{ .icon }} fa-lg"></i>
+                        </a>
+                        {{ end }}
+                    </div>
+                    <div class="col-12 mt-3 d-lg-flex justify-content-end align-items-start flex-column d-none">
+                        <a href="https://www.havelsan.com.tr" target="_blank">
+                            <img src="{{ printf "/images/%s" .Site.Params.footer.logo | relURL }}" class="img-fluid" style="max-width: 400px; float: left;"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 mt-3 mt-lg-0">
+                <div class="flex-column text-center text-lg-right">
+                    <div class="col-12 mt-2">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3060.4547112298424!2d32.74857581538056!3d39.90883927942742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347d7a06482c1%3A0xefdb28d118cd754f!2sHavelsan%20YNHT!5e0!3m2!1sen!2str!4v1587992160737!5m2!1sen!2str"
+                                class="embed-responsive-item" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col align-self-end justify-content-end mt-5">
+                        <h3>Adres:</h3>
+                        <p>Bilişim İnovasyon Merkezi Teknokent, Dumplupınar Bulvarı
+                            No:280/G AZ Kat, Kuzeydoğu köşe, 06530 Çankaya</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center d-lg-none">
+                <a href="https://www.havelsan.com.tr" target="_blank">
+                    <img src="{{ printf "/images/%s" .Site.Params.footer.logo | relURL }}" class="img-fluid" />
+                </a>
+            </div>
+        </div>
+</footer>
+{{ partial "scripts.html" . }}
