@@ -7,7 +7,7 @@ menu:
     name: "Liman'ın Mimarisi"
     weight: 2
     pre: "fa-sitemap"
-    post: "Liman MYS'nin mimari yapısı ve nasıl çalıştığı detaylı şekilde anlatılmıştır."
+    post: "Liman MYS'nin mimari yapısı ve nasıl çalıştığı detaylı şekilde değerlendirilmiştir."
 ---
 
 <section id="content" class="d-flex">

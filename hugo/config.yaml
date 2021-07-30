@@ -1,7 +1,7 @@
 baseURL: https://liman.havelsan.com.tr
 languageCode: tr-tr
 title: Liman MYS | HAVELSAN Açıklab
-theme: liman-hugo-v2
+theme: liman-hugo-v3
 googleAnalytics:
 disableKinds:
   - taxonomy
@@ -40,7 +40,7 @@ menu:
   - identifier: aciklab
     parent: diger
     name: Açıklab
-    url: https://www.aciklab.com/
+    url: https://www.aciklab.org/
   - identifier: links
     name: "Yararlı Linkler"
   - identifier: documentation
@@ -205,7 +205,7 @@ params:
     socialmedia:
       - link: https://github.com/limanmys
         icon: "fa fa-github"
-      - link: https://www.aciklab.com/
+      - link: https://www.aciklab.org/
         icon: "fa fa-globe"
       - link: mailto:aciklab@havelsan.com.tr
         icon: "fa fa-envelope"
