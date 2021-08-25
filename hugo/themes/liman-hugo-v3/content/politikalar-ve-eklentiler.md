@@ -17,7 +17,7 @@ menu:
 <section id="policies" class="d-flex">
     <div class="container-fluid">
         <div class="row" data-aos="fade-up">
-            <div class="container p-5">
+            <div class="container py-5">
                 <div class="row">
                     <div class="col-12">
                         <h2>Liman MYS'de Politikalar</h2>
@@ -27,16 +27,19 @@ menu:
                             ihtiyaçları tespit edilerek geliştirilmiştir. Politikalarımız ile
                             kullanıcılarınızın, istemcilerinizin, sunucularınızın güncel, stabil ve güvenilir
                             olmasını sağlarsınız. </p>
+                            <br>
                             <div class="text-center">
-                            {{% webp-image "policies" %}}
+                            {{% image "liman-ozellikler.jpg" %}}
                             </div>
+                            <br>
+                            {{% policies %}}
                     </div>
                 </div>
             </div>
         </div>
         {{% trial-banner %}}
         <div class="row" data-aos="fade-up">
-            <div class="container p-5">
+            <div class="container py-5">
                 <div class="row mb-5">
                     <div class="col-12">
                         <h2>Eklentiler</h2>
@@ -52,18 +55,22 @@ menu:
                 <div class="row">
                     <div class="col-12 col-lg-6 order-1">
                         <h2>Domain Eklentisi</h2>
-                        <p> Liman MYS, eklentileri aracılığıyla Linux ve Windows sunucuları yönetir. Eklentiler
-                            mimarisi framework methoduyla çalışır, bu sebepten belirlenen ihtiyaçlar kadar Liman
-                            MYS‘nin kabiliyetlerini genişletebilirsiniz. Eklentileri uzak sunucuları yönetmek,
-                            log kaydı yapmak ve belirlenen görevleri yerine getirmek olduğu için Liman MYS
-                            üzerinde hiç bir şekilde veri tutulmaz, yönetimi sağlanan mevcut sunucuların
-                            verileri kullanılır. Bu sebeple, Liman MYS mevcut sistemlere down time korkusu
-                            olmadan entegre olur. </p>
+                        <p> Domain eklentisi ile AD, SAMBA sunucularını, kullanıcıları ve bilgisayarları yönetebilir, Palamar ile kolayca domaine alabilirsiniz. <br><br>
+                        Eklenti özellikleri: </p>
+                        <ul>
+                            <li>Sunucu sistemler üzerinde kullanıcı, grup ve bilgisayar yönetimi yapılması
+                            sağlanmaktadır.</li>
+                            <li>Arayüz üzerinden MS Aktif Dizin ve SAMBA DC sunucular yönetilebilmelidir.</li>
+                            <li>Yeni kullanıcı ekleme, düzenleme ve silme işlemleri yapılabilmelidir.</li>
+                            <li>Yeni grup ekleme, düzenleme ve silme işlemleri yapılabilmelidir.</li>
+                        </ul>
+                        <br>
+                        <a href="https://market.liman.dev/Application/liman.domain" target="_blank">Özelliklerin devamını gör...</a>
                     </div>
                     <div class="col-12 col-lg-6 order-2">
-                        <a href="/images/policies/liman-mys-domain-1.png" data-gall="domain"
+                        <a href="/images/policies/domain.jpg" data-gall="domain"
                             class="venobox">
-                            <img src="/images/policies/liman-mys-domain-1.png" class="img-fluid" />
+                            <img src="/images/policies/domain.jpg" class="img-fluid" />
                             <div class="img-caption p-3 mb-5">
                                 <div class="row">
                                     <div class="col"> Domain eklentisine daha yakından göz atmak için
@@ -79,14 +86,14 @@ menu:
             </div>
         </div>
         <div class="row gray" data-aos="fade-up">
-            <div class="container p-5">
+            <div class="container py-5">
                 <div class="row">
                     <div class=" col-12 col-lg-6 order-2 order-lg-1 "><a
-                            href="/images/policies/liman-mys-jitsi.png" data-gall="jitsi" class="venobox">
-                            <img src="/images/policies/liman-mys-jitsi.png" class="img-fluid" />
+                            href="/images/policies/postgresql.png" data-gall="jitsi" class="venobox">
+                            <img src="/images/policies/postgresql.png" class="img-fluid" />
                             <div class="img-caption p-3 mb-5">
                                 <div class="row">
-                                    <div class="col"> Jitsi eklentisine daha yakından göz atmak için tıklayın...
+                                    <div class="col"> PostgreSQL eklentisine daha yakından göz atmak için tıklayın...
                                     </div>
                                     <div class="col-auto align-self-center">
                                         <i class="fa fa-search fa-2x"></i>
@@ -95,34 +102,38 @@ menu:
                             </div>
                         </a> </div>
                     <div class=" col-12 col-lg-6 order-1 order-lg-2 ">
-                        <h2>Jitsi Eklentisi</h2>
-                        <p> Pardus ve Ubuntu tabanlı sunucularınıza Jitsi kurulumunu uzaktan
-                            gerçekleştirebilirsiniz. LDAP konfigürasyonu ile Jitsi odalarına yalnizca domain
-                            kullanıcılarının dahil olmasını sağlayabilirsiniz. Jitsi üzerinde konfigürasyon
-                            ayarları yaparak performans artışı sağlayabilir, arayüzünü düzenleyebilirsiniz. </p>
+                        <h2>PostgreSQL Eklentisi</h2>
+                        <p> PostgreSQL eklentisi ile kullanıcı ekleyebilir, sorgu yapabilir, yedek alabilir, replikasyon ve daha bir çok işlemi gerçekleştirebilirsiniz. </p>
+                        <p> Özellik listesi: </p>
+                        <ul>
+                            <li>Kullanıcı ekleme, yetkilendirme, silme</li>
+                            <li>Veritabanı oluşturma, yedekleme, tablo ekleme, SQL dump yükleme ve vacuum işlemi</li>
+                            <li>Veritabanları üzerinde sorgu çalıştırma, sorguları listeleme, CSV çıktılarını alma, kayıtlı sorguları çalıştırma işlemi</li>
+                            <li>Veritabanı yedekleme işlemi (dump)</li>
+                            <li>Replikasyon özelliği</li>
+                            <li>Pgbench ile performans testi</li>
+                            <li>Postgres config düzenleme özelliği</li>
+                            <li>Postgres firewall kural ekleme</li>
+                            <li>Servisi yeniden başlatma, durdurma özelliği</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row" data-aos="fade-up">
-            <div class="container p-5">
+            <div class="container py-5">
                 <div class="row">
                     <div class="col-12 col-lg-6">
                         <h2>DNS Eklentisi</h2>
-                        <p> Liman MYS, eklentileri aracılığıyla Linux ve Windows sunucuları yönetir. Eklentiler
-                            mimarisi framework methoduyla çalışır, bu sebepten belirlenen ihtiyaçlar kadar Liman
-                            MYS‘nin kabiliyetlerini genişletebilirsiniz. Eklentileri uzak sunucuları yönetmek,
-                            log kaydı yapmak ve belirlenen görevleri yerine getirmek olduğu için Liman MYS
-                            üzerinde hiç bir şekilde veri tutulmaz, yönetimi sağlanan mevcut sunucuların
-                            verileri kullanılır. Bu sebeple, Liman MYS mevcut sistemlere down time korkusu
-                            olmadan entegre olur. </p>
+                        <p> DNS eklentisi sayesinde Samba ve Aktif Dizin sunucularınızın DNS kısmını sorunsuzca ve kolay bir şekilde yönetebileceksiniz.<br><br>
+                        Eklenti üzerinde kolayca zone kayıtları üzerinde manipülasyon gerçekleştirilebilmektedir. Zone ekleme, zone düzenleme ve zone silme işlemleri hızlıca yapılabilmektedir. </p>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <a href="/images/policies/liman-mys-dns-1.png" data-gall="dns" class="venobox">
-                            <img src="/images/policies/liman-mys-dns-1.png" class="img-fluid" />
+                        <a href="/images/policies/dns2.jpg" data-gall="dns" class="venobox">
+                            <img src="/images/policies/dns2.jpg" class="img-fluid" />
                             <div class="img-caption p-3 mb-5">
                                 <div class="row">
-                                    <div class="col"> Dns eklentisine daha yakından göz atmak için tıklayın...
+                                    <div class="col"> DNS eklentisine daha yakından göz atmak için tıklayın...
                                     </div>
                                     <div class="col-auto align-self-center">
                                         <i class="fa fa-search fa-2x"></i>
@@ -143,7 +154,7 @@ menu:
             </div>
         </div>
         <div class="row info reverse">
-            <div class="container p-5">
+            <div class="container py-5">
                 <div class="row" data-aos="zoom-in">
                     <div class=" col-12 col-lg-2 text-center text-lg-left "> <img
                             src="/images/captain-reverse.svg" class="img-fluid" /> </div>
@@ -158,14 +169,14 @@ menu:
             </div>
         </div>
         <div class="row" data-aos="fade-up">
-            <div class="container p-5">
+            <div class="container py-5">
                 <div class="row">
                     <div class=" col-12 col-lg-6 order-2 order-lg-1 ">
-                        <a href="/images/policies/liman-mys-pxe-1.png" data-gall="pxe" class="venobox">
-                            <img src="/images/policies/liman-mys-pxe-1.png" class="img-fluid" />
+                        <a href="/images/policies/sambafileshare.jpg" data-gall="pxe" class="venobox">
+                            <img src="/images/policies/sambafileshare.jpg" class="img-fluid" />
                             <div class="img-caption p-3 mb-5">
                                 <div class="row">
-                                    <div class="col"> PXE Boot eklentisine daha yakından göz atmak için
+                                    <div class="col"> SambaFileShare eklentisine daha yakından göz atmak için
                                         tıklayın... </div>
                                     <div class="col-auto align-self-center">
                                         <i class="fa fa-search fa-2x"></i>
@@ -173,89 +184,40 @@ menu:
                                 </div>
                             </div>
                         </a>
-                        <a href="/images/policies/liman-mys-pxe-2.png" data-gall="pxe"
-                            class="venobox d-none">
-                            <img src="/images/policies/liman-mys-pxe-2.png" class="img-fluid" />
-                        </a>
-                        <a href="/images/policies/liman-mys-pxe-3.png" data-gall="pxe"
-                            class="venobox d-none">
-                            <img src="/images/policies/liman-mys-pxe-3.png" class="img-fluid" />
-                        </a>
-                        <a href="/images/policies/liman-mys-pxe-4.png" data-gall="pxe"
-                            class="venobox d-none">
-                            <img src="/images/policies/liman-mys-pxe-4.png" class="img-fluid" />
-                        </a>
                     </div>
                     <div class="col-12 col-lg-6 order-1">
-                        <h2>PXE Boot Eklentisi</h2>
-                        <p> PXE boot, bilgisayar üzerinde herhangi bir depolama alanına (Hard disk, CD-DVD vb.)
-                            ihtiyaç duymadan ağ kartının yardımı ile bilgisayarın ilk açılışını sağlayan
-                            sistemdir. PXE ortamı, DHCP ve BOOTP protokollerini kullanarak ağa bağlanırken, TFTP
-                            protokolü yardımıyla da gerekli önyükleme programını yükleyerek işletim sisteminin
-                            açılmasını sağlar. Eklentimizde açılan işletim sistemine imaj alma, imaj yükleme,
-                            parça imaj alma ve parça imaj yükleme gibi işlemleri gerçekleştirebileceğiniz
-                            butonları kolaylıkla oluşturabilir ve yönetebilirsiniz. İmaj alırken veya yüklerken
-                            NFS sunucusu, harici disk veya SSH gibi seçenekler bulunmaktadır. Aldığınız imajları
-                            bir sunucuda tutuyor iseniz imaj isimleri, imaj boyutlarını görebileceksiniz.
-                            Sunucuya imaj yükleyip, kolaylıkla imaj silebileceksiniz. </p>
+                        <h2>SambaFileShare Eklentisi</h2>
+                        <p> Samba dosya paylaşımı eklentisi ile paylaşım izinlerini dosya ve klasör bazlı ayarlayabilir, smb.conf üzerinde paylaşım oluşturabilirsiniz.<br><br>
+                        Eklentide yapabilecekleriniz:<br>
+                        Samba dosya paylaşımı oluşturma<br>
+                        Klasör ve dosya bazlı izinleri değiştirme (Acl)<br>
+                        Samba servis durumunu kontrol etme </p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row gray" data-aos="fade-up">
-            <div class="container p-5">
+            <div class="container py-5">
                 <div class="row">
                     <div class="col-12 col-lg-6 order-1">
-                        <h2>Repository Eklentisi</h2>
-                        <p> Ubuntu ve Debian depolarını kolaylıkla aynalayabilirsiniz. Bu sayede internete
-                            ihtiyaç olmadan paketlerinizi aynalanan depodan güncelleyebilirsiniz. Aynalanan
-                            depolarda paket araması yapabilirsiniz. Aynalama işlemlerinde kimin hangi depoyu
-                            aynaladığını görebilmenizi sağlayan loglar tutulmaktadır. Bunun haricinde yerel depo
-                            sekmesinde kendi deponuzu oluşturabilirsiniz. Bu depoya arayüzden istediğiniz
-                            paketleri ekleyip çıkartabilirsiniz. Dış depo sekmesinde ise istediğiniz depo
-                            adresini ekleyip aynalama yapmadan içindeki paketleri listeleyip görebilirsiniz.
+                        <h2>Depo Eklentisi</h2>
+                        <p> Bu eklentinin aynalama sekmesi bölümünde uzaktaki depoları yerel sunucunuza çekebilir ve yerel sunucunuzdaki depoları kullanarak her türlü depo işlemlerini uzaktaki sunucuya bağlı kalmadan gerçekleştirebilirsiniz.
+                        Yerel depo sekmesi sayesinde de kendi .deb paketlerinizden oluşan bir yerel depo oluşturabilirsiniz. Ve kendi yerel deponuzu ağınızdaki istemcilerle paylaşabilirsiniz. Ek olarak, yine bu sekme içerisinde IP üzerinden dosya paylaşabilmeniz için her türden dosya yükleme işleminin yapılabildiği "Dosyalar" bölümü bulunmakta.
+                        Son olarak, paket arama bölümünde de hem aynalama hem de yerel depodaki paketlerin detaylarını görüntüleyebilir ve bu paketleri tekrardan indirebilirsiniz.
                         </p>
                     </div>
                     <div class="col-12 col-lg-6 order-2">
-                        <a href="/images/policies/liman-mys-repo-1.png" data-gall="repo" class="venobox">
-                            <img src="/images/policies/liman-mys-repo-1.png" class="img-fluid" />
+                        <a href="/images/policies/depo.jpg" data-gall="repo" class="venobox">
+                            <img src="/images/policies/depo.jpg" class="img-fluid" />
                             <div class="img-caption p-3 mb-5">
                                 <div class="row">
-                                    <div class="col"> Repository eklentisine daha yakından göz atmak için
+                                    <div class="col"> Depo eklentisine daha yakından göz atmak için
                                         tıklayın... </div>
                                     <div class="col-auto, align-self-center">
                                         <i class="fa fa-search fa-2x"></i>
                                     </div>
                                 </div>
                             </div>
-                        </a>
-                        <a href="/images/policies/liman-mys-repo-2.png" data-gall="repo"
-                            class="venobox d-none">
-                            <img src="/images/policies/liman-mys-repo-2.png" class="img-fluid" />
-                        </a>
-                        <a href="/images/policies/liman-mys-repo-3.png" data-gall="repo"
-                            class="venobox d-none">
-                            <img src="/images/policies/liman-mys-repo-3.png" class="img-fluid" />
-                        </a>
-                        <a href="/images/policies/liman-mys-repo-4.png" data-gall="repo"
-                            class="venobox d-none">
-                            <img src="/images/policies/liman-mys-repo-4.png" class="img-fluid" />
-                        </a>
-                        <a href="/images/policies/liman-mys-repo-5.png" data-gall="repo"
-                            class="venobox d-none">
-                            <img src="/images/policies/liman-mys-repo-5.png" class="img-fluid" />
-                        </a>
-                        <a href="/images/policies/liman-mys-repo-6.png" data-gall="repo"
-                            class="venobox d-none">
-                            <img src="/images/policies/liman-mys-repo-6.png" class="img-fluid" />
-                        </a>
-                        <a href="/images/policies/liman-mys-repo-7.png" data-gall="repo"
-                            class="venobox d-none">
-                            <img src="/images/policies/liman-mys-repo-7.png" class="img-fluid" />
-                        </a>
-                        <a href="/images/policies/liman-mys-repo-8.png" data-gall="repo"
-                            class="venobox d-none">
-                            <img src="/images/policies/liman-mys-repo-8.png" class="img-fluid" />
                         </a>
                     </div>
                 </div>

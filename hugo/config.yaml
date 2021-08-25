@@ -46,11 +46,11 @@ menu:
   - identifier: documentation
     parent: links
     name: Dökümantasyon
-    url: "https://api.liman.dev/"
+    url: "https://docs.liman.dev/"
   - identifier: guide
     parent: links
     name: Rehber
-    url: "https://rehber.liman.dev/"
+    url: "https://docs.liman.dev/"
 params:
   openGraph: true
   description: HAVELSAN Liman Merkezi Yönetim Sistemi
@@ -69,7 +69,7 @@ params:
           link: "neden-liman-mys"
         - text: Demo Talebi
           link: "/iletisim/"
-      image: slide
+      image: liman-screen
     - title: Açık Kaynak Çekirdek Yazılımı
       subtitle: Liman MYS çekirdek yazılımı açık kaynak bir yazılımdır ve herkese açıktır. Github sayfamızdan kodları görüntüleyebilir ve kullanmaya hemen başlayabilirsiniz.<br/><br/>Debian depomuzu sisteminize ekleyerek, çok kısa bir sürede desteklenen işletim sistemlerine kurulum yapabilirsiniz.
       logos:

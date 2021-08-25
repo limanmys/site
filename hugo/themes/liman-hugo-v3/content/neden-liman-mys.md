@@ -14,6 +14,6 @@ Protokol sonrası Havelsan A.Ş. yaklaşık 1 yıl kurumlarda neden Pardus dön�
 <br><br>
 Liman Merkezi Yönetim Sisteminin hedefi, platformdan bağımsız olarak sistemleri uzaktan merkezi olarak yönetme imkanı sunmaktadır. Liman MYS kurulu olan bilgi sistemlerinde, sistem yöneticileri web arayüzü ile konforlu şekilde uçtan uca kontrol gerçekleştirebilmektedir.
 <br><br>
-{{% image "liman-mys-ozellikler.jpeg" %}}
+{{% image "liman-ozellikler.jpg" %}}
 <br>
 <i>Liman Merkezi Yönetim Sistemi, tamamen Havelsan A.Ş. öz kaynakları kullanılarak geliştirilmiştir.</i>

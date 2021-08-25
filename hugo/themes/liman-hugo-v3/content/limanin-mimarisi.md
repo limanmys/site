@@ -13,7 +13,7 @@ menu:
 <section id="content" class="d-flex">
     <div class="container-fluid">
         <div class="row" data-aos="fade-up">
-            <div class="container p-5">
+            <div class="container py-5">
                 <div class="row">
                     <div class="col-12">
                         <h2>Liman'ın Mimarisi</h2>
@@ -21,8 +21,8 @@ menu:
                             kullanıcıları uzaktan merkezi olarak mevcut dizin yapınızdaki Grup Politika Objeleri
                             (GPO) ve geliştirdiğimiz politikalar ile yönetmenizi sağlar.</p>
                         <a class="venobox"
-                            href="https://liman.havelsan.com.tr/images/liman-mys-yapisi-sema.png">
-                            <img src="https://liman.havelsan.com.tr/images/liman-mys-yapisi-sema.png"
+                            href="/images/liman-mimari.png">
+                            <img src="/images/liman-mimari.png"
                                 class="img-fluid" />
                             <div class="img-caption p-3 mb-5">Liman'ın mimari yapısı için tıklayın...<i
                                     class="fa fa-search-plus float-right"></i></div>
@@ -37,7 +37,7 @@ menu:
         </div>
         {{% trial-banner %}}
         <div class="row" data-aos="fade-up">
-            <div class="container p-5">
+            <div class="container py-5">
                 <div class="row">
                     <div class="col-12">
                         <h2>Liman</h2>
@@ -51,7 +51,8 @@ menu:
             </div>
         </div>
         <div class="row gray">
-            <div class="container p-5">
+            <div class="container py-5">
+                <div class="row">
                 <div class="col-12">
                     <div class="row d-flex flex-lg-row flex-column align-items-start text-center text-lg-left"
                         data-aos="zoom-in">
@@ -97,9 +98,10 @@ menu:
                     </div>
                 </div>
             </div>
+            </div>
         </div>
         <div class="row info reverse">
-            <div class="container p-5">
+            <div class="container py-5">
                 <div class="row" data-aos="zoom-in">
                     <div class="col-12 col-lg-2 text-center text-lg-left">
                         <img src="/images/captain-reverse.svg" class="img-fluid" />

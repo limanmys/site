@@ -27,7 +27,7 @@
                         {{ end }}
                     </div>
                     {{ if $v.image }}
-                    <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="d-flex align-items-center col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
                         <picture>
                             <source srcset="{{ printf "/images/%s.webp"  $v.image | relURL }}" type="image/webp">
                             <img src="{{ printf "/images/%s.png"  $v.image | relURL }}" class="img-fluid" alt="">

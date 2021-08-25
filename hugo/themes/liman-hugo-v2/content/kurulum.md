@@ -40,3 +40,5 @@ sudo apt install lightdm-hvl-greeter
 <div class="col text-center mt-3 mb-3">
 {{% button "Özel Demo İsteyin!" "/iletisim" true %}}
 </div>
+
+<meta http-equiv="refresh" content="0; URL='https://rehber.liman.dev/liman-kurulum/'" />
